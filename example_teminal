@@ -1,0 +1,156 @@
+Last login: Tue Feb  2 09:36:27 on ttys004
+SHSMBA0028:~ saruser$ cd downloads/decay_sim-master
+SHSMBA0028:decay_sim-master saruser$ java Nuclear
+input N, the initial number of atoms.
+1000
+input P, the probability of decay.
+0.1
+1000 890 803 732 665 606 541 490 442 409 371 327 300 267 244 215 194 164 150 139 131 114 104 91 80 74 63 52 47 46 41 38 36 33 29 28 23 22 20 16 15 13 12 12 10 10 10 9 9 8 8 6 5 5 5 4 3 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 1 1 1 1 1 1 1 0
+The number of time steps was 82
+SHSMBA0028:decay_sim-master saruser$ cd
+SHSMBA0028:~ saruser$ cd downloads
+SHSMBA0028:downloads saruser$ cd decay_sim-master
+SHSMBA0028:decay_sim-master saruser$ ls
+Nuclear.class	Nuclear2.class	StdDraw.class
+Nuclear.java	Nuclear2.java	StdDraw.java
+SHSMBA0028:decay_sim-master saruser$ java Nuclear
+input N, the initial number of atoms.
+10000
+input P, the probability of decay.
+0.1
+10000 8969 8135 7289 6553 5890 5301 4783 4305 3880 3512 3180 2859 2568 2306 2075 1848 1655 1506 1361 1231 1111 1004 898 804 718 645 587 537 496 441 390 366 318 273 241 206 190 173 156 141 133 114 93 83 75 65 55 47 40 40 34 33 29 27 23 20 16 13 10 8 8 6 5 4 4 4 1 0
+The number of time steps was 68
+SHSMBA0028:decay_sim-master saruser$ java Nuclear
+input N, the initial number of atoms.
+10000
+input P, the probability of decay.
+0.1
+10000 9005 8120 7300 6608 5969 5381 4782 4321 3871 3515 3133 2825 2516 2270 2016 1809 1638 1483 1338 1204 1110 998 904 823 753 668 594 532 483 439 399 353 315 272 239 208 183 162 149 134 123 109 102 90 81 76 70 65 61 53 52 48 46 36 32 28 25 20 19 16 15 15 15 13 13 12 9 8 8 8 8 7 7 6 6 5 5 4 4 4 4 4 4 3 3 3 3 3 3 3 3 3 3 2 2 1 0
+The number of time steps was 97
+SHSMBA0028:decay_sim-master saruser$ java Nuclear
+input N, the initial number of atoms.
+10000
+input P, the probability of decay.
+0.1
+10000 9037 8112 7318 6610 5969 5372 4814 4356 3903 3514 3140 2849 2543 2280 2085 1875 1707 1558 1397 1284 1151 1023 907 826 747 669 595 535 478 428 380 333 299 268 239 213 188 175 153 135 125 106 92 77 74 62 58 54 50 42 40 36 31 29 28 27 23 20 17 15 15 12 9 9 8 5 5 5 4 4 3 3 3 3 3 3 3 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+The number of time steps was 94
+SHSMBA0028:decay_sim-master saruser$ java Nuclear2
+input the initial number of atoms.
+10000
+input P, the probability of decay for A to B.
+0.4
+input P, the probability of decay for B to C.
+0.1
+10000 0 0 5987 4013 0 3609 6015 376 2157 6841 1002 1268 7041 1691 753 6781 2466 440 6420 3140 273 5977 3750 172 5467 4361 99 4989 4912 55 4539 5406 34 4088 5878 18 3661 6321 13 3316 6671 8 3015 6977 3 2738 7259 2 2455 7543 1 2201 7798 1 1974 8025 1 1781 8218 0 1598 8402 0 1427 8573 0 1289 8711 0 1164 8836 0 1047 8953 0 937 9063 0 833 9167 0 751 9249 0 681 9319 0 615 9385 0 567 9433 0 507 9493 0 465 9535 0 421 9579 0 381 9619 0 333 9667 0 300 9700 0 271 9729 0 236 9764 0 203 9797 0 181 9819 0 161 9839 0 149 9851 0 134 9866 0 117 9883 0 107 9893 0 97 9903 0 93 9907 0 82 9918 0 75 9925 0 65 9935 0 61 9939 0 58 9942 0 54 9946 0 49 9951 0 44 9956 0 40 9960 0 35 9965 0 29 9971 0 26 9974 0 25 9975 0 23 9977 0 17 9983 0 16 9984 0 12 9988 0 12 9988 0 9 9991 0 8 9992 0 5 9995 0 3 9997 0 3 9997 0 3 9997 0 3 9997 0 3 9997 0 3 9997 0 2 9998 0 2 9998 0 2 9998 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 0 1 9999 
+The number of time steps was 101
+SHSMBA0028:decay_sim-master saruser$ java Nuclear2
+input the initial number of atoms.
+10000
+input P, the probability of decay for A to B.
+0.1
+input P, the probability of decay for B to C.
+0.4
+10000 0 0 9006 994 0 8134 1481 385 7343 1681 976 6615 1767 1618 5938 1724 2338 5326 1609 3065 4788 1505 3707 4338 1367 4295 3878 1276 4846 3478 1159 5363 3123 1042 5835 2819 926 6255 2525 872 6603 2261 773 6966 2016 708 7276 1833 606 7561 1658 562 7780 1479 503 8018 1366 414 8220 1240 384 8376 1114 344 8542 986 333 8681 895 291 8814 808 262 8930 728 248 9024 647 228 9125 591 203 9206 529 188 9283 474 181 9345 429 151 9420 378 134 9488 342 132 9526 310 110 9580 283 95 9622 254 86 9660 221 75 9704 204 67 9729 180 69 9751 167 59 9774 154 48 9798 138 47 9815 125 41 9834 111 40 9849 99 34 9867 90 29 9881 80 25 9895 75 13 9912 68 13 9919 62 14 9924 52 20 9928 49 12 9939 48 9 9943 43 9 9948 39 8 9953 36 10 9954 35 5 9960 31 7 9962 30 5 9965 28 6 9966 24 9 9967 20 11 9969 19 6 9975 17 5 9978 14 5 9981 12 6 9982 11 3 9986 8 4 9988 7 3 9990 7 2 9991 5 3 9992 4 1 9995 4 0 9996 3 1 9996 3 0 9997 2 1 9997 2 1 9997 1 2 9997 1 1 9998 1 0 9999 0 1 9999 
+The number of time steps was 81
+SHSMBA0028:decay_sim-master saruser$ java Nuclear2
+input the initial number of atoms.
+1000
+input P, the probability of decay for A to B.
+0.2
+input P, the probability of decay for B to C.
+0.2
+1000 0 0
+800 200 0
+635 322 43
+508 391 101
+395 429 176
+322 420 258
+257 401 342
+217 364 419
+174 332 494
+144 298 558
+116 268 616
+91 231 678
+78 208 714
+68 183 749
+57 150 793
+48 131 821
+37 117 846
+25 96 879
+18 80 902
+14 70 916
+10 60 930
+8 53 939
+8 40 952
+7 31 962
+7 24 969
+5 22 973
+3 21 976
+3 15 982
+1 14 985
+1 13 986
+0 12 988
+0 12 988
+0 12 988
+0 10 990
+0 8 992
+0 6 994
+0 3 997
+0 2 998
+0 2 998
+0 2 998
+0 2 998
+0 1 999
+0 1 999
+0 1 999
+0 1 999
+0 1 999
+0 1 999
+0 1 999
+0 1 999
+
+The number of time steps was 49
+SHSMBA0028:decay_sim-master saruser$ git add .
+SHSMBA0028:decay_sim-master saruser$ git commit -m "added line space to Nuclear2"
+[master 6da9eff] added line space to Nuclear2
+ 7 files changed, 1314 insertions(+)
+ create mode 100755 Downloads/decay_sim-master/Nuclear.class
+ create mode 100755 Downloads/decay_sim-master/Nuclear.java
+ create mode 100755 Downloads/decay_sim-master/Nuclear2.class
+ create mode 100644 Downloads/decay_sim-master/Nuclear2.java
+ create mode 100755 Downloads/decay_sim-master/Nuclear2.java~
+ create mode 100755 Downloads/decay_sim-master/StdDraw.class
+ create mode 100755 Downloads/decay_sim-master/StdDraw.java
+SHSMBA0028:decay_sim-master saruser$ git push origin master
+To https://github.com/Trismeg/Reposit.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Trismeg/Reposit.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+SHSMBA0028:decay_sim-master saruser$ git init
+Initialized empty Git repository in /Users/saruser/Downloads/decay_sim-master/.git/
+SHSMBA0028:decay_sim-master saruser$ cd
+SHSMBA0028:~ saruser$ cd documents/decay-sim
+-bash: cd: documents/decay-sim: No such file or directory
+SHSMBA0028:~ saruser$ cd documents/decay_sim
+SHSMBA0028:decay_sim saruser$ git add .
+SHSMBA0028:decay_sim saruser$ git commit -m "added space"
+[master 428e756] added space
+ 3 files changed, 90 insertions(+), 1 deletion(-)
+ mode change 100644 => 100755 Nuclear.class
+ mode change 100644 => 100755 Nuclear.java
+ mode change 100644 => 100755 Nuclear2.class
+ create mode 100755 Nuclear2.java~
+ mode change 100644 => 100755 StdDraw.class
+ mode change 100644 => 100755 StdDraw.java
+SHSMBA0028:decay_sim saruser$ git push origin master
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 670 bytes, done.
+Total 4 (delta 2), reused 0 (delta 0)
+To https://github.com/Trismeg/decay_sim.git
+   e15fd41..428e756  master -> master
+SHSMBA0028:decay_sim saruser$ 
