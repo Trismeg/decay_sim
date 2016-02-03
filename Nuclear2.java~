@@ -42,7 +42,7 @@ public class Nuclear2{
     while(A>0 | B>0){
       System.out.print( A + " ");
       System.out.print( B + " ");
-      System.out.print( C + " ");
+      System.out.print( C + "\n");
       
       StdDraw.point((double) steps , (float) A );
       StdDraw.point((double) steps , (float) B );
