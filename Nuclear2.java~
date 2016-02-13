@@ -39,7 +39,13 @@ public class Nuclear2{
     StdDraw.setXscale( 0. , 8.0 / Math.min(probAB,probBC));
     StdDraw.setYscale(0. , (float) A );
     
+    System.out.print( "steps" + " ");
+      System.out.print( "A" + " ");
+      System.out.print( "B" + " ");
+      System.out.print( "C" + "\n");
+    
     while(A>0 | B>0){
+      System.out.print( steps + " ");
       System.out.print( A + " ");
       System.out.print( B + " ");
       System.out.print( C + "\n");
