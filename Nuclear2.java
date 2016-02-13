@@ -99,8 +99,9 @@ public class Nuclear2{
       
       
     }
-    double maxB=0;
-    double maxBsteps=0;
+    int maxB=0;
+    int maxBsteps=0;
+    float P=steps;
     
     for(int i=0; i<arrB.size(); i++){
       if (arrB.get(i)>maxB){
@@ -110,7 +111,8 @@ public class Nuclear2{
    StdDraw.setPenColor(StdDraw.BLUE);  
    StdDraw.line( maxBsteps,maxB,maxBsteps,0);
    StdDraw.setFont(f);
-   StdDraw.textLeft( maxBsteps,maxB+(D*0.02),"Maximum"); 
+   StdDraw.textLeft( maxBsteps,maxB+(D*0.02),"Maximum"+" "+Integer.toString(maxB));
+   StdDraw.textLeft( maxBsteps+(P*0.01),D*0.02,"Steps"+" "+Integer.toString(maxBsteps));
     
     System.out.print( "\nThe maximum of B is " + maxB + " which takes " + maxBsteps + " steps to reach it." + "\n");
     System.out.print( "\nThe number of time steps was " + steps + "\n");
