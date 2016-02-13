@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.util.*;
+import java.awt.Font;
 
 public class Nuclear2{
   
@@ -14,10 +16,13 @@ public class Nuclear2{
     Scanner scan = new Scanner(System.in);
     
     int A; //set the initial number of atoms A
+    double D;
     int B=0; //number of B
     int C=0; //number of C
     System.out.println( "input the initial number of atoms.");
     A = scan.nextInt();
+    
+    D = A;
     
     int newA; // this is a temporary variable to count the number of survivors of A per iteration
     int newB; // this is a temporary variable to count the number of survivors of B per iteration
@@ -25,6 +30,9 @@ public class Nuclear2{
     
     int addB;
     int addC;
+    
+    ArrayList <Integer>arrB = new ArrayList<Integer>();
+    ArrayList <Integer>arrSteps = new ArrayList<Integer>();
     
     double probAB; // this is the chance of decay process happening for an atom A to B each iteration
     System.out.println( "input P, the probability of decay for A to B.");
@@ -49,6 +57,9 @@ public class Nuclear2{
       System.out.print( A + " ");
       System.out.print( B + " ");
       System.out.print( C + "\n");
+      
+      arrB.add(B);
+      arrSteps.add(steps);
       
       StdDraw.point((double) steps , (float) A );
       StdDraw.point((double) steps , (float) B );
@@ -86,8 +97,24 @@ public class Nuclear2{
       
       
       
+      
     }
+    int maxB=0;
+    int maxBsteps=0;
+    float P=steps;
     
+    for(int i=0; i<arrB.size(); i++){
+      if (arrB.get(i)>maxB){
+        maxB=arrB.get(i);
+        maxBsteps=arrSteps.get(i);}}
+   Font f = new Font("Arial", Font.PLAIN, 12); 
+   StdDraw.setPenColor(StdDraw.BLUE);  
+   StdDraw.line( maxBsteps,maxB,maxBsteps,0);
+   StdDraw.setFont(f);
+   StdDraw.textLeft( maxBsteps,maxB+(D*0.02),"Maximum"+" "+Integer.toString(maxB));
+   StdDraw.textLeft( maxBsteps+(P*0.01),D*0.02,"Steps"+" "+Integer.toString(maxBsteps));
+    
+    System.out.print( "\nThe maximum of B is " + maxB + " which takes " + maxBsteps + " steps to reach it." + "\n");
     System.out.print( "\nThe number of time steps was " + steps + "\n");
     
   }
